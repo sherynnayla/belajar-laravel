@@ -24,9 +24,9 @@
     <div class="work border-bottom pt-3">
         <div class="d-flex align-items-center py-2 mt-1">
             <div>
-                <span class="text-muted fas fa-comment btn"></span>
+                <span class="text-muted fas fa-comment btn my-2"></span>
             </div>
-            <div class="text-muted">{{ !is_null($todos) ? count($todos) : '-' }}2 complated todos</div>
+            <div class="text-muted">{{ !is_null($todos) ? count($todos) : '-' }} Complated Todos</div>
             <button class="ml-auto btn bg-white text-muted fas fa-angle-down" type="button" data-toggle="collapse"
                 data-target="#comments" aria-expanded="false" aria-controls="comments"></button>
         </div>
@@ -63,7 +63,7 @@
             menggunakan delete--}}
             @method('DELETE') {{-- --}}
             {{--biar action form nya bisa dijalanin, button nya harus type submit--}}
-            <button type="submit" class="fas fa-trash text-danger btn"></button>
+            <button type="submit" class="fas fa-trash text-danger btn mt-4"></button>
             </form>
             {{--<span class="fas fa-arrow-right btn mt-4 "></span>--}}
             </div>

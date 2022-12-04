@@ -276,6 +276,7 @@ fieldset {
     padding: 10px;
     font-size: 15px;
     border-radius: 0 !important;
+    background: #2a353d;
 }
  
 #create-form button[type="submit"] {

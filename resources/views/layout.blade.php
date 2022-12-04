@@ -16,14 +16,13 @@
     @if (Auth::check()) 
 <nav class="navbar navbar-light bg-light p-2">
     <a class="navbar-brand ">Todo App</a>
-        <form class="form-inline">
+        <div class="form-inline">
         <p class="nav-item mx-4 "  >
         <i class="fa-regular fa-user">
         {{Auth::user()->name}}
         </i></p>
-    <a class="btn btn-outline-success mt-4 " href="/logout" type="submit">Logout</a>
-    
-  
+        </div>
+    <a class="btn btn-outline-success mt-4 " href="/logout" type="submit">Logout</a> 
 </nav>
 @endif
     @endif
